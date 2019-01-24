@@ -1,4 +1,5 @@
-/* SETUP | SETUP-2801 | STYLE - 2018-01-24 5:46 AM */
+/* SETUP | MODEL-DAB - 2.8.0.1 A | STYLE - 2019-01-24 7:13 AM */
+/* SETUP | SETUP-2801 | STYLE - 2019-01-24 5:46 AM */
 // 2.8.0.1 A (Latest Commit)
 // GENESIS-SAMPLE 2.8.0
 // SETUP | SETUP-2721 | STYLE - 2018-01-06 12:30 PM
@@ -17,7 +18,7 @@
 @import 	"selector/2721_setup/boxsizing";
 @import 	"selector/2721_setup/clear";
 
-// -------------------------------------------------------------------- VARIABLES | 2019-01-01
+// -------------------------------------------------------------------- VARIABLES | 2019-01-24
 
 // WIDTH
 @import 	"variables/2721_setup/width-grid";
@@ -32,7 +33,7 @@
 @import 	"variables/2721_setup/fontweight";
 @import 	"variables/2721_setup/lineheight";
 @import 	"variables/2721_setup/letterspacing";
-@import 	"variables/2721_setup/color";
+			@import 	"variables/2721_model-dab/color";
 
 // -------------------------------------------------------------------- COLOR | 2018-12-14
 @import 	"color/2721_setup/color";
@@ -55,8 +56,8 @@
 @import 	"content/2721_setup/button";
 @import 	"content/2721_setup/block";
 
-// -------------------------------------------------------------------- TYPE | 2018-12-14
-@import 	"type/2721_setup/family";
+// -------------------------------------------------------------------- TYPE | 2019-01-24
+			@import 	"type/2721_model-dab/family";
 @import 	"type/2721_setup/size";
 @import 	"type/2721_setup/weight";
 @import 	"type/2721_setup/height";
@@ -912,11 +913,11 @@ p.entry-meta {
 	//margin-bottom: 0;
 }
 
-// -------------------------------------------------------------------- HEADER | 2018-12-14
-@import 	"header/2721_setup/header-logomenuv_grid";
+// -------------------------------------------------------------------- HEADER | 2019-01-24
+			@import 	"header/2721_model-dab/header-logomenuv_grid";
 
-// -------------------------------------------------------------------- SECTION | 2018-12-14
-//@import 	"section/2721_setup/section-header_grid";
+// -------------------------------------------------------------------- SECTION | 2019-01-24
+			@import 	"section/2721_model-dab/section-header_grid";
 
 // -------------------------------------------------------------------- INNER | 2018-12-14
 @import 	"inner/2721_setup/inner_grid";
